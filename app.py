@@ -20,16 +20,19 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    .main { background-color: #FAFAFA; }
-    h1, h2, h3 { color: #1F2A37; font-weight: 600; }
+    .stApp, .main { background-color: #FAFAFA !important; }
+    h1, h2, h3 { color: #1F2A37 !important; font-weight: 600; }
+    p, span, label, div { color: #1F2937; }
     div[data-testid="stMetric"] {
-        background-color: #FFFFFF;
+        background-color: #FFFFFF !important;
         border: 1px solid #E5E7EB;
         border-radius: 6px;
         padding: 14px 16px 8px 16px;
     }
-    div[data-testid="stMetricLabel"] { color: #6B7280; }
-    section[data-testid="stSidebar"] { background-color: #F3F4F6; }
+    div[data-testid="stMetricLabel"] * { color: #6B7280 !important; }
+    div[data-testid="stMetricValue"] * { color: #1F2A37 !important; }
+    section[data-testid="stSidebar"] { background-color: #F3F4F6 !important; }
+    section[data-testid="stSidebar"] * { color: #1F2A37 !important; }
     </style>
     """,
     unsafe_allow_html=True,
