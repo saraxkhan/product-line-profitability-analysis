@@ -395,4 +395,4 @@ st.caption(
 )
 
 st.markdown("---")
-st.caption("Nassau Candy Distributor internal analytics — internship project. All figures calculated from the uploaded transaction dataset.")
+st.caption("Nassau Candy Distributor internal analytics — internship project. All figures calculated from the transaction dataset.")
